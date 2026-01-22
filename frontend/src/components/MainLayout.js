@@ -1,15 +1,24 @@
 import React from 'react';
+import { Box } from '@mui/material';
 import Sidebar from './Sidebar';
 import '../styles/MainLayout.css';
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="main-layout">
+    <Box sx={{ display: 'flex', height: '100vh', width: '100%' }}>
       <Sidebar />
-      <main className="main-content">
+      <Box
+        component="main"
+        sx={{
+          flex: 1,
+          overflow: 'auto',
+          backgroundColor: 'background.default',
+          p: 3,
+        }}
+      >
         {children}
-      </main>
-    </div>
+      </Box>
+    </Box>
   );
 };
 
