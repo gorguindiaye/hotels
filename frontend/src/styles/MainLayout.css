@@ -1,0 +1,37 @@
+/* Main Layout */
+.main-layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+  padding: 0;
+  height: 100vh;
+}
+
+/* Scrollbar Styling */
+.main-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+  background: #d0d0d0;
+  border-radius: 4px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+

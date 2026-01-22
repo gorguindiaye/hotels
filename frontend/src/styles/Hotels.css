@@ -1,0 +1,58 @@
+/* Hotels Page Styling */
+.hotels-page {
+  padding: 40px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Hotels Header */
+.hotels-header {
+  margin-bottom: 40px;
+}
+
+.hotels-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2d3436;
+  letter-spacing: -0.5px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hotel-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3498db;
+  color: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Hotels Section */
+.hotels-section {
+  margin-bottom: 40px;
+}
+
+.hotels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 1200px) {
+  .hotels-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hotels-grid {
+    grid-template-columns: 1fr;
+  }
+}
