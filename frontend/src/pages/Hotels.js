@@ -24,7 +24,7 @@ const Hotels = () => {
       name: 'Radisson Blu Hotel',
       address: 'Dakar, Sénégal',
       price: '22.000',
-      image: 'https://cf.bstatic.com/xdata/images/hotel/max1280x900/276814841.jpg?k=92c36e10ba8d3d1b58ca0ed9ee13a25ae1c7b05b12eee0bac1bfdd63bac5c49c&o='
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&h=400&fit=crop'
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ const Hotels = () => {
       name: 'Pullman Dakar',
       address: 'Dakar, Sénégal',
       price: '24.000',
-      image: 'https://cf.bstatic.com/xdata/images/hotel/max1280x900/290447372.jpg?k=58c30d47f9d5a11cc37f1e0e95a6c0e36efb0e8d87b3e9c3e0f9c8d8e0f9c8d&o='
+      image: 'https://images.unsplash.com/photo-1559205615-cd4628902d4a?w=500&h=400&fit=crop'
     },
     {
       id: 6,
