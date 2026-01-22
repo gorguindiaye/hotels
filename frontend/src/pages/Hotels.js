@@ -24,7 +24,7 @@ const Hotels = () => {
       name: 'Radisson Blu Hotel',
       address: 'Dakar, Sénégal',
       price: '22.000',
-      image: 'https://images.pexels.com/photos/2656092/pexels-photo-2656092.jpeg?w=500&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1542314503-37143f4f6efb?w=500&h=400&fit=crop'
     },
     {
       id: 4,
