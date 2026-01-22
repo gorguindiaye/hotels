@@ -38,7 +38,7 @@ const Hotels = () => {
       name: 'Pullman Dakar',
       address: 'Dakar, Sénégal',
       price: '24.000',
-      image: 'https://images.unsplash.com/photo-1559205615-cd4628902d4a?w=500&h=400&fit=crop'
+      image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&h=400&fit=crop'
     },
     {
       id: 6,
